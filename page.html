@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="image/semsiye.png" alt="">
+            <div>
+                <a href="">
+                    <i class="fa-solid fa-cloud-sun-rain" style="color: #ffffff; margin-bottom: 5px;"></i>
+                    <span style="color: #fff; ">Weather</span>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <i class="fa-solid fa-bars" style="color: #c4cad3; margin-bottom: 5px;"></i>
+                    <span>Cities</span>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <i class="fa-solid fa-map" style="color: #c4cad3; margin-bottom: 5px;"></i>
+                    <span>Map</span>
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <i class="fa-solid fa-sliders" style="color: #c4cad3; margin-bottom: 5px;"></i>
+                    <span>Settings</span>
+                </a>
+            </div>
+        </div>  
+        <div class="center">
+            <div class="center1">
+                <input type="search" name="" id="" placeholder="Search for cities">
+            </div>
+            <div class="center2">
+                <div class="center2-text">
+                    <p class="text1">Madrid</p>
+                    <p class="text2">Chance of rain: 0%</p>
+                    <p class="text3">31°</p>
+                </div>
+                <div class="center2-image">
+                    <img src="image/gunes.png" alt="">
+                </div>
+            </div>
+            <div class="center3">
+                <p><span>TODAY'S FORECAST</span></p>
+                <div class="weatherCenter">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <p class="time-center">6:00 AM</p>
+                                <div>
+                                    <img src="image/bulut.png" alt="">
+                                </div>
+                                <p class="degree-center">25°</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <p class="time-center">9:00 AM</p>
+                                <div>
+                                    <img src="image/parcali.png" alt="">
+                                </div>
+                                <p class="degree-center">28°</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <p class="time-center">12:00 PM</p>
+                                <div>
+                                    <img src="image/gunes.png" alt="">
+                                </div>
+                                <p class="degree-center">33°</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <p class="time-center">3:00 PM</p>
+                                <div>
+                                    <img src="image/gunes.png" alt="">
+                                </div>
+                                <p class="degree-center">34°</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <p class="time-center">6:00 PM</p>
+                                <div>
+                                    <img src="image/gunes.png" alt="">
+                                </div>
+                                <p class="degree-center">32°</p>
+                            </div>
+                            <div class="swiper-slide">
+                                <p class="time-center">9:00 PM</p>
+                                <div>
+                                    <img src="image/parcali.png" alt="">
+                                </div>
+                                <p class="degree-center">30°</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="center4">
+                <div class="center-4-container">
+                    <div class="center-4-start">
+                        <p class="airConditions"><span>AIR CONDITIONS</span></p>
+                        <div class="seeMore">
+                            <a href="">See more</a>
+                        </div>
+                    </div>
+                    <div class="center-4-end">
+                        <div class="realFeel">
+                            <i class="fa-solid fa-temperature-three-quarters" style="color: #9399a2;"></i>
+                            <div class="column">
+                                <p class="center4-text"><span>Real Feel</span></p>
+                                <p class="center4-degree"><span>30°</span></p>
+                            </div>
+
+                        </div>
+                        <div class="wind">
+                            <i class="fa-solid fa-wind" style="color: #9399a2;"></i>
+                            <div class="column">
+                                <p class="center4-text"><span>Wind</span></p>
+                                <p class="center4-degree"><span>0.2 km/h</span></p>
+                            </div>
+
+                        </div>
+                        <div class="chanceOfRain">
+                            <i class="fa-solid fa-droplet" style="color: #9399a2;"></i>
+                            <div class="column">
+                                <p class="center4-text"><span>Chance of rain</span></p>
+                                <p class="center4-degree"><span>0%</span></p>
+                            </div>
+
+                        </div>
+                        <div class="uvIndex">
+                            <i class="fa-solid fa-sun" style="color: #9399a2;"></i>
+                            <div class="column">
+                                <p class="center4-text"><span>UV Index</span></p>
+                                <p class="center4-degree"><span>3</span></p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="right-container">
+                <p class="title"><span>7 - DAY FORECAST</span></p>
+                <div class="days">
+                    <div class="day today">
+                        <div class="dayName">
+                            <span>Today</span>
+                        </div>
+                        <div class="dayImage">
+                            <img src="image/gunes.png" alt="">
+                        </div>
+                        <div class="weather-name">
+                            Sunny
+                        </div>
+                        <div class="weatherDegree">
+                            <span class="right-span1">36</span>
+                            <span class="right-span2">/22</span>
+                        </div>
+                    </div>
+                    <div class="day tue">
+                        <div class="dayName">Tue</div>
+                        <div class="dayImage">
+                            <img src="image/gunes.png" alt="">
+                        </div>
+                        <div class="weather-name">Sunny</div>
+                        <div class="weatherDegree">
+                            <span class="right-span1">37</span>
+                            <span class="right-span2">/21</span>
+                        </div>
+                    </div>
+                    <div class="day wed">
+                        <div class="dayName">Wed</div>
+                        <div class="dayImage">
+                            <img src="image/gunes.png" alt="">
+                        </div>
+                        <div class="weather-name">Sunny</div>
+                        <div class="weatherDegree">
+                            <span class="right-span1">37</span>
+                            <span class="right-span2">/21</span>
+                        </div>
+                    </div>
+                    <div class="day thu">
+                        <div class="dayName">Thu</div>
+                        <div class="dayImage">
+                            <img src="image/bulut.png" alt="">
+                        </div>
+                        <div class="weather-name">Cloudy</div>
+                        <div class="weatherDegree">
+                            <span class="right-span1">37</span>
+                            <span class="right-span2">/21</span>
+                        </div>
+                    </div>
+                    <div class="day fri">
+                        <div class="dayName">Fri</div>
+                        <div class="dayImage">
+                            <img src="image/bulut.png" alt="">
+                        </div>
+                        <div class="weather-name">Cloudy</div>
+                        <div class="weatherDegree">
+                            <span class="right-span1">37</span>
+                            <span class="right-span2">/21</span>
+                        </div>
+                    </div>
+                    <div class="day sat">
+                        <div class="dayName">Sat</div>
+                        <div class="dayImage">
+                            <img src="image/yagmur.png" alt="">
+                        </div>
+                        <div class="weather-name">Rainy</div>
+                        <div class="weatherDegree">
+                            <span class="right-span1">37</span>
+                            <span class="right-span2">/21</span>
+                        </div>
+                    </div>
+                    <div class="day sun">
+                        <div class="dayName">Sun</div>
+                        <div class="dayImage">
+                            <img src="image/gunes.png" alt="">
+                        </div>
+                        <div class="weather-name">Sunny</div>
+                        <div class="weatherDegree">
+                            <span class="right-span1">37</span>
+                            <span class="right-span2">/21</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: "auto",
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+
+        });
+    </script>
+
+</body>
+
+</html>
